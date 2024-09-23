@@ -34,4 +34,11 @@
   - A majority of websites have a master HTML files call the index, the are typical multiple index file on a site, however atleast one of them is always the the home page.
   - The index.html is found at the root directory 
 - ## What are the top naming practices for clean and organized code?
-  - 
+  - Naming files:
+    - always need an index.html home folder
+    - no spaces, no odd character
+    - lowercase is recomened, if ypu are not using more than one word
+    - use a consistent naming convention
+    - always include an extention with all the file
+  - Organzing files:
+    - With in the 'Root' folder it's good to have subfolders for different aspect; Pages, images, CSS, sripts, of course the index.html is in on it's own. Type to keep eathing but the index.html file within the subfolder. 
