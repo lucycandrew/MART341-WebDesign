@@ -10,6 +10,14 @@
         h2, blockquote {color: rgb(143, 96, 96)}
         p {color: rgb(45, 34, 13)}
 <!-- it stuggling to find to color numbers -- >
+        .list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;}
+        
+        .column {
+        padding: 10px;
+        border: 0px solid black;}
     </style>
 <!-- my pictures were not lining up -->
 <!-- Down the road I think I witll like the categories to different resicpes in that food, wheat would have lot of differnt breads etc. -->
@@ -29,30 +37,32 @@
         <img src="https://www.uwwp.org/wp-content/uploads/2023/04/what-are-whole-grains-image.jpg" width="45%"; object-fit; style="float: left; margin-right: 10px;"/> 
         <img src="https://www.sidechef.com/article/af6e3124-c078-4709-a542-97eb75b11eb7.jpg?d=375x375" width="45%"; object-fit; style="float: right; margin-left: 10px;"/> 
         <div class="list">
-        <h2 style="width: 45%; float: left">Grains </h2>
-            <ul><li><strong>Wheat  </strong>
-                <li><strong>Rice & Wild Rice </strong>
-                <li><strong>Corn </strong>
-                <li><strong>Oats </strong>
-                <li><strong>Barley </strong>
-                <li><strong>Rye </strong>
-                <li><strong>Quinoa </strong>
-                <li><strong>More </strong>
-            </ul>
-
-            
-        <h2 style="text-align: left;">Noodles </h2>
-            <ul> <li><strong>Spaghetti </strong>
-                <li><strong>Ramen </strong>
-                <li><strong>Udon </strong>
-                <li><strong>Soba </strong>
-                <li><strong>Rice Noodles </strong>
-                <li><strong>Egg Noodles </strong>
-                <li><strong>Glass Noodles </strong>
-                <li><strong>Pappardelle </strong>
-                <li><strong>Fettuccine </strong>
-                <li><strong>Somen </strong>
-            </ul>
+            <div class="column">
+                <h2>Grains </h2>
+                    <ul><li><strong>Wheat  </strong>
+                        <li><strong>Rice & Wild Rice </strong>
+                        <li><strong>Corn </strong>
+                        <li><strong>Oats </strong>
+                        <li><strong>Barley </strong>
+                        <li><strong>Rye </strong>
+                        <li><strong>Quinoa </strong>
+                        <li><strong>More </strong>
+                    </ul>
+            </div>
+            <div class="column">
+                <h2>Noodles </h2>
+                    <ul> <li><strong>Spaghetti </strong>
+                        <li><strong>Ramen </strong>
+                        <li><strong>Udon </strong>
+                        <li><strong>Soba </strong>
+                        <li><strong>Rice Noodles </strong>
+                        <li><strong>Egg Noodles </strong>
+                        <li><strong>Glass Noodles </strong>
+                        <li><strong>Pappardelle </strong>
+                        <li><strong>Fettuccine </strong>
+                        <li><strong>Somen </strong>
+                    </ul>
+            </div>
         </div>
             <hr />
 
