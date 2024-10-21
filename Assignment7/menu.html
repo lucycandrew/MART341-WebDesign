@@ -10,17 +10,19 @@
     th, td {border: 1px solid #000000; padding: 8px;}
     th {background-color: #81b3ff;color: white}
     tr:nth-child(even) {background-color: hsl(0, 100%, 100%)}
+    .crop-container { width: 50%; height: 355px; overflow: hidden}
 </style>
 
 <body>
     <a style="float: right; padding: 10px" href="index.html">HOME</a>
     <a style="float: right; padding: 10px" href="Table.html">TABLE</a>
     <h1 style="text-align: left;">Menu Ideas:</h1>
-
-    <img src="https://i.pinimg.com/736x/76/52/61/7652617e14cdaccc71e304156c592fff.jpg" width="50%" style="float: right; margin-left: 10px;"/>  
+    <div class="crop-container">
+        <img src="https://i.pinimg.com/736x/76/52/61/7652617e14cdaccc71e304156c592fff.jpg"/>  
+    </div>
     <h2>Breakfast</h2>
         <p>Eating a nutritious breakfast is important as it provides the energy and nutrients needed to start your day. A good breakfast should include a balance of macronutrients: carbohydrates, proteins, and healthy fats. </p>
-
+    <hr/>
     <table>
         <tr>
             <th></th>
@@ -148,5 +150,5 @@
             <td><input type="checkbox" id="task4"></td>
         </tr>
     </table>
-</head> 
+</body> 
   </html>
