@@ -203,5 +203,27 @@
             <td><input type="checkbox" id="task4"></td>
         </tr>
     </table>
+
+    <from action="mailto:lucy.andrew@umconnect.umt.edu" method="post" enctype="text/plain">
+        <h3 style="text-align: center;">Add your own Recipe</h3>
+        <fieldset>
+        <legend>ADD-YOUR-OWN-RECIPE</legend>
+        <label>Your Email:<br />
+            <input type="email" name="email" required /></label>
+        <br />
+        <label>Recipe Title: <br />
+            <input type="text" name="activity" required /></label>
+        <br />
+        <label>Ingredients :<br />
+            <textarea name="Ingredients" rows="4" cols="50" placeholder="Describe activity here..." required></textarea></label>
+        </fieldset>
+        <label>Instructions :<br />
+            <textarea name="Instructions" rows="4" cols="50" placeholder="Describe activity here..." required></textarea></label>
+        </fieldset>
+        
+        <br/>
+        
+        <input type="submit" value="Submit Suggestion" />
+    </form>
 </body> 
   </html>
