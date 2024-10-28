@@ -1,1 +1,3 @@
+Assignment 7 
+
 Problably the thing I am most proud of some far is my images. Last week I figured out how to put images into tables so they can be all the same size. It made my whole website come together. This week when I was adding images I ended up just putting the in the tables, as well as some image I hadn't put in table before. I like how once in the table to some relatively simile code my images will say where I have put where i have put them on the page, no mater what the page sixe changes. 
