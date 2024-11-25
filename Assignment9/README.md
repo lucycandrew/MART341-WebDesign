@@ -10,5 +10,6 @@
     - Sweetener (honey is best)
 
 ## Intrucions : 
-    1. Boild the Water :
+Step 1 : Boild the Water 
     Fill your Kettle with water. What the water have boiled large bubbles will be rising continuously from the bottom of the kettle to the surface, & steem will be coming out ～ 100°C or 212°F
+
