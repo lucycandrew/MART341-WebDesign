@@ -30,3 +30,4 @@ Pour the boiled water into your teapot, be sure not to over fill it. Be careful!
      - It will get stronger overtime 
 - If you don't like strong tea the use the timer so you do not forget to take out the leaves. 
 - The best sweetener for any kind of tea is honey. 
+- If it too bitter, add a tiny bit of salt (to tast). 
