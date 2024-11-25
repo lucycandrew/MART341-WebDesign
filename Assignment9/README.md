@@ -24,3 +24,9 @@ Pour the boiled water into your teapot, be sure not to over fill it. Be careful!
 #### Step 5 :
 
 #### Step 6 :
+
+## Tips & Tricks : 
+- Don't be affrade to leave the tea leaves in the teapot. 
+     - It will get stronger overtime 
+- If you don't like strong tea the use the timer so you do not forget to take out the leaves. 
+- The best sweetener for any kind of tea is honey. 
