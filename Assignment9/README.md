@@ -19,11 +19,14 @@ Rinse your china in warm water, make sure to get all the corner. Gently warming 
 #### Step 3 : Fill Teapot with Water 
 Pour the boiled water into your teapot, be sure not to over fill it. Be careful!
 
-#### Step 4 : 
+#### Step 4 : Add Chosen Tea leaves (or Bag)
+Measure out the appropriate amount of tea leaves based on your teapot's size. or Add your desired amount of tea bags. 
 
-#### Step 5 :
+#### Step 5 : Let the Tea Steep 
+Let the tea leaves steep for 3-5 minutes, depending on the desired strength. You can I either leave the leaves in if it's a loose but if not you can remove the leaves if you would like. 
 
-#### Step 6 :
+#### Step 6 : Poor and Enjoy!
+At this piont you can add you desider swetener 
 
 ## Tips & Tricks : 
 - Don't be affrade to leave the tea leaves in the teapot. 
