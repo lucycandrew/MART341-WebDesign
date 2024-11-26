@@ -10,12 +10,16 @@
          nav { float: right; padding: 0 10px 10px 10px}
          nav a { text-decoration: none; padding: 10px; color: black; display: inline-block}
 
-
          /*Table*/
          table {Width: 100%; border-collapse: collapse}
         th, td {border: 1px solid #000000; padding: 8px;}
         th {background-color:  rgb(248, 179, 205);color: white}
         tr:nth-child(even) {background-color: hsl(0, 100%, 100%)}
+        /*Set Table*/
+        .set-table-section {display: flex; flex-wrap: wrap; gap: 0.5%; justify-content: space-around;}
+        .set-table {width: 45%; padding: 15px 30px 30px 30px; margin: 17px 0; box-sizing: border-box; text-align: left ;}
+
+
 
 
     </style>
@@ -60,6 +64,14 @@
         </tr>
         <tr>
             <td><input type="checkbox"></td>
+            <tr scope="col"> Sugar Boll </tr>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <tr scope="col"> Cream Pitcher </tr>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
             <td scope="col">Tea Cozy </td>
         </tr>
         <tr>
@@ -72,8 +84,16 @@
         </tr>
     </table>
     <h2>How to Set the Table </h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/-Ql2aCBfxhM?si=NZ5l4_5LrPHS_OqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <h3> The most important thing to remember is the be creative. This is your Tea Party have fun with it. </h3>
+    <div class="set-table-section">
+        <div class="set-table">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-Ql2aCBfxhM?si=NZ5l4_5LrPHS_OqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="set-table">
+            <h3> The most important thing to remember is the be creative. This is your Tea Party have fun with it. </h3>
+        </div>
+    </div>
+
+
 
 </body>
 </html>
