@@ -1,6 +1,6 @@
 README List:
 
-## I working on my index 
+## I am reused my Assignment9 so I will attempt to put it on all of my pages. 
 
 ### Required Techniques (Must Have):
 
