@@ -1,4 +1,6 @@
 
+* { margin: 0; padding: 0; box-sizing: border-box;}
+h2 {text-align: center;}
 
 /* navagation */ 
 nav { float: right; padding: 0 10px 10px 10px}
@@ -20,3 +22,14 @@ nav a { text-decoration: none; padding: 10px; color: black; display: inline-bloc
 
 /*timer*/
 .timer { width: 95%; margin: 0 auto; padding: 20px;}
+
+/* Table */ 
+table {Width: 100%; border-collapse: collapse}
+th, td {border: 1px solid #000000; padding: 8px;}
+th {background-color:  rgb(248, 179, 205);color: white}
+tr:nth-child(even) {background-color: hsl(0, 100%, 100%)}
+
+/*Set Table*/
+.set-table-section {display: flex; flex-wrap: wrap; gap: 0.5%; justify-content: space-around;}
+.set-table {width: 45%; padding: 15px 30px 30px 30px; margin: 17px 0; box-sizing: border-box; text-align: left ;}
+
