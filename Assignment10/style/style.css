@@ -4,6 +4,7 @@
 /* navagation */ 
 nav { float: right; padding: 0 10px 10px 10px}
 nav a { text-decoration: none; padding: 10px; color: black; display: inline-block}
+h1 { text-align: left;}
 
 /*material*/ 
 .materials {display: grid; grid-template-columns: repeat(2, 1fr); margin: 0 auto; padding: 0 20px 20px 20px; width: 95%; height: 400px; background-color: #b3c3e0; align-items: center;}
