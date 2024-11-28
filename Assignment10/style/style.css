@@ -34,7 +34,7 @@ tr:nth-child(even) {background-color: hsl(0, 100%, 100%)}
 
 /*Set Table*/
 .set-table {width: 45%; padding: 15px 30px 30px 30px; margin: 17px 0; box-sizing: border-box; text-align: left ;}
-#table-words {font-size: 1em; color: #555; margin-top: 5px;}
+#table-words {color: #555; margin-top: 5px;}
 
 /*tea cards */
 .tea-leaves-card {width: 31%; padding: 15px 30px 30px 30px; margin: 17px 0; background-color: #ffffff; box-sizing: border-box; text-align: center; }
