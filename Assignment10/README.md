@@ -10,4 +10,4 @@ README List:
 ### Select at Least Three Additional Techniques:
 - Positioning - Applied display, padding, and margin for a balanced grid layout.
 - Text Alignment - Mainly used to position title text 
-- Borders - there a borders around my images and 
+- Borders - there a borders around my images and info cells 
