@@ -1,10 +1,14 @@
 
-/* { margin: 0; padding: 0; box-sizing: border-box;}*/s
+
 
 /* navagation */ 
 nav { float: right; padding: 0 10px 10px 10px}
 nav a { text-decoration: none; padding: 10px; color: black; display: inline-block}
 h1 { text-align: left;}
+
+/*combine section*/
+.section {display: flex; flex-wrap: wrap; gap: 0.5%; justify-content: space-around;}
+
 
 /*material*/ 
 .materials {display: grid; grid-template-columns: repeat(2, 1fr); margin: 0 auto; padding: 0 20px 20px 20px; width: 95%; height: 400px; background-color: #b3c3e0; align-items: center;}
@@ -13,7 +17,6 @@ h1 { text-align: left;}
 .material-image img {width: 100%; height: auto}
 
 /*instructions*/
-.instructions-section {display: flex; flex-wrap: wrap; gap: 0.5%; justify-content: space-around;}
 .instructions {width: 45%; padding: 15px 30px 30px 30px; margin: 17px 0; background-color: #b3c3e0; box-sizing: border-box; text-align: left ;}
 .instruction-box { display: flex; flex-wrap: wrap; gap: 0.2%; justify-content: space-around;}
 .box {width: 45%; padding: 15px 15px; margin: 17px 0; box-sizing: border-box; border: 0px solid black; align-items: center;}
@@ -30,11 +33,9 @@ th {background-color:  rgb(248, 179, 205);color: white}
 tr:nth-child(even) {background-color: hsl(0, 100%, 100%)}
 
 /*Set Table*/
-.set-table-section {display: flex; flex-wrap: wrap; gap: 0.5%; justify-content: space-around;}
 .set-table {width: 45%; padding: 15px 30px 30px 30px; margin: 17px 0; box-sizing: border-box; text-align: left ;}
 
 /*tea cards */
-.tea-leave-types {display: flex; flex-wrap: wrap; gap: 0.5%; justify-content: space-around;}
 .tea-leaves-card {width: 31%; padding: 15px 30px 30px 30px; margin: 17px 0; background-color: #ffffff; box-sizing: border-box; text-align: center; }
 .leave-images {width: 95%; border: 5px black; padding: 15px 15px;}
 .leave-images img { width: 100%;  height: auto; }
