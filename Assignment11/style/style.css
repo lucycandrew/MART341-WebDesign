@@ -1,11 +1,14 @@
 
+@font-face {font-family: 'Pacifico-Regular';  src: url('fonts/Pacifico-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal;}
 
+h1 { font-family: 'Pacifico-Regular', ;text-align: left;}
 
 /* navagation */ 
 nav { float: right; padding: 0 10px 10px 10px}
 nav a { text-decoration: none; padding: 10px; color: black; display: inline-block; transition: color 0.3s ease, transform 0.3s ease;}
 nav a:hover {color:  #834e6f ; text-decoration: underline; }
-h1 { text-align: left;}
+
+
 
 /*combine section*/
 .section {display: flex; flex-wrap: wrap; gap: 0.5%; justify-content: space-around;}
