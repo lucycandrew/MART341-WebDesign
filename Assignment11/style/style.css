@@ -4,7 +4,7 @@
 /* navagation */ 
 nav { float: right; padding: 0 10px 10px 10px}
 nav a { text-decoration: none; padding: 10px; color: black; display: inline-block; transition: color 0.3s ease, transform 0.3s ease;}
-nav a:hover {color:  #b3c3e0 ; text-decoration: underline; }
+nav a:hover {color:  #834e6f ; text-decoration: underline; }
 h1 { text-align: left;}
 
 /*combine section*/
