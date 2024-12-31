@@ -1,8 +1,8 @@
-Required Techniques (Must Have):
 
-Create a page with an external CSS style sheet
-Add hover effects to enhance interactivity
-Use an external font that is self-hosted
+### Required Techniques (Must Have):
+- external CSS style sheet : I am continuting my Assignment10; How to make a Porper Cup of Tea, and continuting my style sheet.
+- Add hover effects to enhance interactivity : Add effect to navagation links to make it more clear that they are links. 
+Use an external font that is self-hosted : 
 Use an external font from a font library
 Select at Least Three Additional Techniques:
 
