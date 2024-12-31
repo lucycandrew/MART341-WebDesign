@@ -1,7 +1,8 @@
 
+/* font */
 @font-face {font-family: MysteryQuest; src: url(fonts/MysteryQuest-Regular.ttf) format('truetype'); font-weight: normal; font-style: normal; }
 
-h1 { font-family: 'Pacifico-Regular', ;text-align: left;}
+h1 { font-family: 'MysteryQuest', 'Times New Roman', Times ; text-align: left;}
 
 /* navagation */ 
 nav { float: right; padding: 0 10px 10px 10px}
