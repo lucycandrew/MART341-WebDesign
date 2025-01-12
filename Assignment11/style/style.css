@@ -2,8 +2,6 @@
 /* font */
 @font-face {font-family: 'MysteryQuest'; src: url('fonts/MysteryQuest-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 
-@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap'); .fleur-de-leah-regular {font-family: 'Fleur De Leah', serif; font-weight: 400; font-style: normal;}  
-  
 
 h1 { font-family: 'MysteryQuest', 'Times New Roman', Times ; text-align: left; padding: 0px 10px 10px 10px;}
 
