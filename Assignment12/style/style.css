@@ -1,0 +1,49 @@
+
+/* font */
+@font-face {font-family: 'MysteryQuest'; src: url('fonts/MysteryQuest-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+
+h1 { font-family: 'MysteryQuest', 'Times New Roman', Times ; text-align: left; padding: 0px 10px 10px 10px;}
+
+/* navagation */ 
+nav { float: right; padding: 0 10px 10px 10px}
+nav a { text-decoration: none; padding: 10px; color: black; display: inline-block; transition: color 0.3s ease, transform 0.3s ease;}
+nav a:hover {color:  #834e6f ; text-decoration: underline; font-weight: bold; }
+
+
+
+/*combine section*/
+.section {display: flex; flex-wrap: wrap; gap: 0.5%; justify-content: space-around;}
+
+
+/*material*/ 
+.materials {display: grid; grid-template-columns: repeat(2, 1fr); margin: 0 auto; padding: 0 20px 20px 20px; width: 95%; height: 400px; background-color: #b3c3e0; align-items: center;}
+.info-cell {width: 85%; overflow: hidden; padding: 30px 30px 30px 30px; border: 0px solid black; align-items: center;}
+.material-image {object-fit: cover; vertical-align: middle; border: 0px solid black; padding: 10px 10px }
+.material-image img {width: 100%; height: auto}
+
+/*instructions*/
+.instructions {width: 45%; padding: 15px 30px 30px 30px; margin: 17px 0; background-color: #b3c3e0; box-sizing: border-box; text-align: left ;}
+.instruction-box { display: flex; flex-wrap: wrap; gap: 0.2%; justify-content: space-around;}
+.box {width: 45%; padding: 15px 15px; margin: 17px 0; box-sizing: border-box; border: 0px solid black; align-items: center;}
+.box-image {border: 0px solid black; overflow: hidden; margin: auto 0; display: block; align-content: center;}
+.box-image img { width: 100%; height: auto}
+
+/*timer*/
+.timer { width: 95%; margin: 0 auto; padding: 20px;}
+
+/* Table */ 
+table {Width: 100%; border-collapse: collapse}
+th, td {border: 1px solid #000000; padding: 8px;}
+th {background-color:  rgb(248, 179, 205);color: white}
+tr:nth-child(even) {background-color: hsl(0, 100%, 100%)}
+
+/*Set Table*/
+.set-table {width: 45%; padding: 15px 30px 30px 30px; margin: 17px 0; box-sizing: border-box; text-align: left ;}
+#table-words {color: #555; margin-top: 5px; }
+
+/*tea cards */
+.tea-leaves-card {width: 31%; padding: 15px 30px 30px 30px; margin: 17px 0; background-color: #ffffff; box-sizing: border-box; text-align: center; }
+.leave-images {width: 95%; border: 5px black; padding: 15px 15px;}
+.leave-images img { width: 100%;  height: auto; }
+
