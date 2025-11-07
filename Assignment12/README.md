@@ -1,4 +1,7 @@
 I am working on 'How the Make a Proper pot of tea' - About tea leaves 
+    Index : Home 
+    Party : Tea Part
+    Tea : Aout Tea 
 
 Select at least 6 of the following techniques to implement:
 
