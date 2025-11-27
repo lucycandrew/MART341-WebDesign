@@ -1,7 +1,20 @@
 I am working on 'How the Make a Proper pot of tea' - About tea leaves 
     Index : Home 
+    -Intruction Cards & Heading 
+        Photos and words 
+        - Sizing 
+        - Overflow 
+        - Position  
     Party : Tea Part
+    -How to set the Table
+        Vedio & words  
+        -overflow
     Tea : Aout Tea 
+    -change Tiles 
+    -types of tea
+        Cards 
+        -Overflow
+
 
 Select at least 6 of the following techniques to implement:
 
