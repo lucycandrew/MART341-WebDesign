@@ -106,7 +106,8 @@ nav a:hover {
     margin: 17px 0;
     border: 0 solid black;
     box-sizing: border-box;
-    align-items: center;
+    display: flex;
+    flex-direction: column; /*stack image above text*/
 }
 
 .box-image {
