@@ -113,14 +113,13 @@ nav a:hover {
 .box-image {
     border: 0 solid black;
     overflow: hidden;
-    margin: auto 0;
-    display: block;
-    align-content: center;
+    margin-bottom: auto;
 }
 
 .box-image img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 /* --------------------------------------------------
