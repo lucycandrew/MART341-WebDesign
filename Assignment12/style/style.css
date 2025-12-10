@@ -110,6 +110,12 @@ nav a:hover {
     align-items: center;
 }
 
+.box-text {
+    overflow-y: auto;
+    max-height: 350px;
+    padding-right: 10px;
+}
+
 .box-image {
     border: 0 solid black;
     overflow: hidden;
