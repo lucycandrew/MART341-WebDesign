@@ -58,27 +58,33 @@ nav a:hover {
     width: 95%;
     height: 400px;
     margin: 0 auto;
-    padding: 0 20px 20px 20px;
+    padding: 20px;
     background-color: #b3c3e0;
-    align-items: center;
+    align-items: stretch; /* makes columns match height */
 }
 
 .info-cell {
-    width: 85%;
-    padding: 30px;
-    overflow: hidden;
-    border: 0 solid black;
+    width: 100%;
+    padding: 20px;
+    overflow-y: auto; /* <-- makes text scroll */
+    border-radius: 10px;
 }
 
+/* LEFT SIDE: text list scrolls */
 .material-image {
     padding: 10px;
     border: 0 solid black;
     object-fit: cover;
 }
 
-.material-image img {
-    width: 100%;
-    height: auto;
+/* RIGHT SIDE: image stays visible */
+.material-image {
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* --------------------------------------------------
