@@ -4,16 +4,11 @@ I am working on 'How the Make a Proper pot of tea' - About tea leaves
         Photos and words 
         - Sizing 
         - Overflow 
+        - boarder 
+        - margin 
+        - padding 
+        - display 
         - Position  
-    Party : Tea Part
-    -How to set the Table
-        Vedio & words  
-        -overflow
-    Tea : Aout Tea 
-    -change Tiles 
-    -types of tea
-        Cards 
-        -Overflow
 
 
 Select at least 6 of the following techniques to implement:
