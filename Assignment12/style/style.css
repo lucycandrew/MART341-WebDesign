@@ -189,22 +189,36 @@ tr:nth-child(even) {
 /* --------------------------------------------------
    TEA CARDS
 -------------------------------------------------- */
+/* Each card */
 .tea-leaves-card {
-    width: 31%;
-    padding: 15px 30px 30px 30px;
-    margin: 17px 0;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    text-align: center;
+    background-color: #b3c3e0;
+    padding: 20px;
+    border-radius: 12px;
+    height: 460px;            /* fixed height so it matches your style */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;         /* hides overflow outside box */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
+/* images */
 .leave-images {
-    width: 95%;
-    border: 5px black;
-    padding: 15px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 12px;
 }
 
 .leave-images img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Scrollable text inside card */
+.tea-leaves-card p {
+    margin-top: 8px;
+    overflow-y: auto;
 }
