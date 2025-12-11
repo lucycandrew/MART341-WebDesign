@@ -196,13 +196,13 @@ tr:nth-child(even) {
     background-color: #ffffff;
     box-sizing: border-box;
     text-align: center;
-    border-radius: 10px; /* optional – remove if you want sharp edges */
+    border-radius: 10px; 
 }
 
 .leave-images {
     width: 95%;
     padding: 15px;
-    border: 0 solid black; /* your original said border: 5px black (missing style) */
+    border: 0 solid black; 
     margin: 0 auto;
 }
 
@@ -210,5 +210,5 @@ tr:nth-child(even) {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 8px; /* optional */
+    border-radius: 8px; 
 }
