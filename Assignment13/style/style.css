@@ -49,6 +49,10 @@ h1 {
 /* ------------------------------
    DROPDOWN NAVIGATION
 -------------------------------- */
+/* ==============================
+   DROPDOWN NAVIGATION
+================================ */
+
 .main-nav {
     float: right;
     padding: 10px;
@@ -69,30 +73,36 @@ h1 {
     text-decoration: underline;
 }
 
-/* Dropdown */
+/* Dropdown container */
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
+/* Hidden menu */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #fff;
+    right: 0;
+    background-color: #ffffff;
     min-width: 160px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-    z-index: 10;
+    z-index: 1000;
 }
 
+/* Dropdown links */
 .dropdown-content a {
     display: block;
     padding: 10px;
+    color: black;
 }
 
+/* Show dropdown on hover */
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 
 
 /* --------------------------------------------------
@@ -239,6 +249,22 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+/* ==============================
+   MOBILE FIX
+================================ */
+@media (max-width: 600px) {
+    .main-nav {
+        float: none;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        position: static;
+        box-shadow: none;
+    }
+}
+
 
 /* --------------------------------------------------
    RESPONSIVE DESIGN
