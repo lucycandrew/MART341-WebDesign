@@ -1,6 +1,3 @@
-
-
-
 /* --------------------------------------------------
    FONT
 -------------------------------------------------- */
@@ -13,31 +10,90 @@
 
 h1 {
     font-family: 'MysteryQuest', 'Times New Roman', Times;
-    text-align: left;
     padding: 0 10px 10px 10px;
 }
 
 /* --------------------------------------------------
-   NAVIGATION
+   NAVIGATION BAR
 -------------------------------------------------- */
-nav {
-    float: right;
-    padding: 0 10px 10px 10px;
+.navbar {
+    padding: 10px 20px;
+    text-align: right;
 }
 
-nav a {
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links > li {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-links a {
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 15px;
     color: black;
     display: inline-block;
-    transition: color 0.3s ease, transform 0.3s ease;
+    transition: color 0.3s ease;
 }
 
-nav a:hover {
+.nav-links a:hover {
     color: #834e6f;
     text-decoration: underline;
     font-weight: bold;
 }
+
+/* ------------------------------
+   DROPDOWN NAVIGATION
+-------------------------------- */
+.main-nav {
+    float: right;
+    padding: 10px;
+}
+
+.main-nav a,
+.main-nav span {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.main-nav a:hover,
+.main-nav span:hover {
+    color: #834e6f;
+    text-decoration: underline;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    z-index: 10;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
 /* --------------------------------------------------
    SECTION WRAPPER
@@ -50,7 +106,7 @@ nav a:hover {
 }
 
 /* --------------------------------------------------
-   MATERIALS
+   MATERIALS SECTION
 -------------------------------------------------- */
 .materials {
     display: grid;
@@ -60,36 +116,25 @@ nav a:hover {
     margin: 0 auto;
     padding: 20px;
     background-color: #b3c3e0;
-    align-items: stretch; /* makes columns match height */
+    align-items: stretch;
 }
 
 .info-cell {
-    width: 100%;
     padding: 20px;
-    overflow-y: auto; /* <-- makes text scroll */
+    overflow-y: auto;
     border-radius: 10px;
 }
 
-/* LEFT SIDE: text list scrolls */
 .material-image {
-    padding: 10px;
-    border: 0 solid black;
-    object-fit: cover;
-}
-
-/* RIGHT SIDE: image stays visible */
-.material-image {
-    padding: 10px;
-    border-radius: 10px;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .material-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* clean fill */
+    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -99,41 +144,25 @@ nav a:hover {
 .instructions {
     width: 45%;
     height: 400px;
-    padding: 15px 30px 30px 30px;
+    padding: 15px 30px;
     margin: 17px 0;
     background-color: #b3c3e0;
     box-sizing: border-box;
-    text-align: left;
-    display: flex;
 }
 
 .instruction-box {
     display: flex;
-    gap: 0.2%;
-    overflow: auto;
+    gap: 10px;
+    height: 100%;
 }
 
 .box {
-    width: 45%;
-    padding: 15px;
-    margin: 17px 0;
-    border: 0 solid black;
-    box-sizing: border-box;
-    align-items: center;
+    width: 50%;
 }
 
 .box-text {
     overflow-y: auto;
     max-height: 350px;
-    padding-right: 10px;
-}
-
-.box-image {
-    border: 0 solid black;
-    overflow: hidden;
-    margin: auto 0;
-    display: block;
-    align-content: center;
 }
 
 .box-image img {
@@ -159,7 +188,7 @@ table {
 }
 
 th, td {
-    border: 1px solid #000000;
+    border: 1px solid black;
     padding: 8px;
 }
 
@@ -169,46 +198,79 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: hsl(0, 100%, 100%);
+    background-color: #fff;
 }
 
-/* SET TABLE */
+/* --------------------------------------------------
+   SET TABLE SECTION
+-------------------------------------------------- */
 .set-table {
     width: 45%;
-    padding: 15px 30px 30px 30px;
+    padding: 15px 30px;
     margin: 17px 0;
-    box-sizing: border-box;
-    text-align: left;
 }
 
 #table-words {
     color: #555;
-    margin-top: 5px;
 }
 
 /* --------------------------------------------------
-   TEA CARDS
+   TEA LEAVES CARDS
 -------------------------------------------------- */
 .tea-leaves-card {
     width: 31%;
     margin: 17px 0;
-    padding: 15px 30px 30px 30px;
+    padding: 15px 30px;
     background-color: #ffffff;
-    box-sizing: border-box;
+    border-radius: 10px;
     text-align: center;
-    border-radius: 10px; 
-}
-
-.leave-images {
-    width: 95%;
-    padding: 15px;
-    border: 0 solid black; 
-    margin: 0 auto;
 }
 
 .leave-images img {
     width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px; 
+    border-radius: 8px;
+}
+
+/* --------------------------------------------------
+   FOOTER
+-------------------------------------------------- */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* --------------------------------------------------
+   RESPONSIVE DESIGN
+-------------------------------------------------- */
+@media (max-width: 900px) {
+    .materials {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .instructions,
+    .set-table {
+        width: 95%;
+    }
+
+    .tea-leaves-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-links > li {
+        display: block;
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        position: static;
+        box-shadow: none;
+    }
+
+    .tea-leaves-card {
+        width: 95%;
+    }
 }
