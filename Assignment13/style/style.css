@@ -149,7 +149,7 @@ h1 {
 }
 
 /* --------------------------------------------------
-   INSTRUCTIONS
+   INSTRUCTIONS (INDEX CARDS)
 -------------------------------------------------- */
 .instructions {
     width: 45%;
@@ -158,6 +158,7 @@ h1 {
     margin: 17px 0;
     background-color: #b3c3e0;
     box-sizing: border-box;
+    border-radius: 10px; /* ✅ FIX: matches other cards */
 }
 
 .instruction-box {
