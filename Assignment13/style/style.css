@@ -158,7 +158,7 @@ h1 {
     margin: 17px 0;
     background-color: #b3c3e0;
     box-sizing: border-box;
-    border-radius: 10px; /* ✅ FIX: matches other cards */
+    border-radius: 10px; 
 }
 
 .instruction-box {
