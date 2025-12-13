@@ -1,5 +1,6 @@
-### I am working on the "How to make a propor cup of tea" website, I am continuing on from Assignment 12  
-## I will be workingon 
+------------------------
+## I am working on the "How to make a propor cup of tea" website, I am continuing on from Assignment 12  
+--------------------------
 1. At Least 4 Pages – Your website should contain a minimum of four distinct pages that align with a cohesive theme.
     - Index - home 
     - Tea - About Tea
